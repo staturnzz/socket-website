@@ -1,1 +1,149 @@
-hello
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>socket</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1, maximum-scale=1">
+		<link rel="shortcut icon" href="favicon.ico">
+        <link href=" https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css " rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+		<script>let FF_FOUC_FIX;</script>
+	</head>
+    <style>
+        .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        }
+        .button-download {
+        font-size: 30px;
+        font-family: 'Hack', sans-serif;
+        padding: 0.6em 2em;
+        border: none;
+        outline: none;
+        color: #13262F;
+        background: #F6FFF8;
+        cursor: pointer;
+        position: relative;
+        z-index: 0;
+        border-radius: 10px;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        }
+        .button-download:before {
+        content: "";
+        background: linear-gradient(
+            45deg,
+            #ff0000,
+            #ff7300,
+            #fffb00,
+            #48ff00,
+            #00ffd5,
+            #002bff,
+            #7a00ff,
+            #ff00c8,
+            #ff0000
+        );
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        background-size: 400%;
+        z-index: -1;
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        animation: glowing-button-download 20s linear infinite;
+        transition: opacity 0.3s ease-in-out;
+        border-radius: 10px;
+        }
+        @keyframes glowing-button-download {
+        0% {background-position: 0 0;}
+        50% {background-position: 400% 0;}
+        100% {background-position: 0 0;}
+        }
+        .button-download:after {
+        z-index: -1;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #F6FFF8;
+        left: 0;
+        top: 0;
+        border-radius: 10px;
+        }
+        html,body {
+            background-color: #13262F;
+        }
+        h1 {
+            font-family: 'Hack', sans-serif;
+            color: #F6FFF8;
+            text-align: center;
+            font-size: 50px;
+        }
+        h3 {
+            font-family: 'Hack', sans-serif;
+            color: #F6FFF8;
+            text-align: center;
+            font-size: 22px;
+        }
+        h4 {
+            font-family: 'Hack', sans-serif;
+            color: #F6FFF8;
+            text-align: center;
+            font-size: 13px;
+        }
+        a {
+            text-decoration: none;
+            font-family: 'Hack', sans-serif;
+            color: #8B80F9;
+            font-size: 13px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        p {
+            font-family: 'Hack', sans-serif;
+            color: #BFD7EA;
+            font-size: 13px;
+            text-align: center;
+            list-style-position: inside;
+        }
+        .download-btn {
+            color: #4E5166;
+            background-color: #F6FFF8;
+        }
+    </style>
+        <h1>socket</h1>
+        <a style="margin-top:-30px ;" href="https://twitter.com/0x7FF7">by staturnz</a>
+        <h3>iOS 10.3.x Jailbreak for 32bit devices</h3><br>
+        <h4>Supports iPhone 5, 5c, & iPad 4</h3>
+        <p>
+            Download the ipa file using the button below<br>
+            Install the ipa file using Sideloadly<br>
+            Open the "Socket" app on your device and press "jailbreak"<br>
+            Enjoy!
+        </p> 
+        <a href="https://github.com/staturnzz/socket">source code</a>
+        <div class="center">
+            <button class="button-download" role="button">download</button>
+        </div>
+        <p style="margin-top:-50px ;">version 1.0b1</p>
+        <br>
+        <h3>credits</h3>
+        <p>
+            Brandon Azad - iosurface.c & bits from mach_swap<br>
+            dora2ios - patches/finder & bits from p0insettia<br>
+            Jake James - sock_port2 exploit<br>
+            Ned Williamson - socket bug (CVE-2019-8605)<br>
+            planetbeing - ios-jailbreak-patchfinder<br>
+            REALKJCMEMBER - bits for kernel pmap patching<br>
+            SongXiaoXi - sock_port 32bit support & fixes<br>
+            tihmstar - bits from doubleh3lix<br>
+            Zebra Team - zebra package manager<br>
+            Thank you all!
+        </p> 
+</html>
