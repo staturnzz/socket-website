@@ -1,0 +1,181 @@
+body {
+    background-color: #22272E;
+}
+
+h1 {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-top: -10px;
+    padding-top: 85px;
+    font-size: 48px;
+}
+
+h5 {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-top: -10px;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+h2 {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-top: -35px;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+h3 {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-top: -35px;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+h6 {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color: #22272E;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.header-box {
+    margin-top: -10px;
+    margin-left: -8px;
+    height: 235px;
+    width: 99.2vw;
+    background: radial-gradient(100% 100% at 94% 51%, rgb(214, 46, 46) 0%, rgba(40, 61, 62, 0.7) 100%),
+    linear-gradient(142deg, rgb(40, 61, 62) 0%, rgb(214, 196, 150) 15%, rgb(72, 88, 111) 37%, rgb(72, 88, 111) 40%),
+    linear-gradient(341deg, rgb(72, 88, 111) 0%, rgb(72, 88, 111) 14%, rgb(214, 196, 150) 27%, rgb(40, 61, 62) 32%),
+    linear-gradient(97deg, rgb(40, 61, 62) 0%, rgb(214, 46, 46) 21%, rgb(255, 255, 192) 46%, rgb(255, 255, 192) 56%),
+    linear-gradient(237deg, rgb(214, 46, 46) 0%, rgb(214, 196, 150) 2%, rgb(214, 46, 46) 13%, rgb(214, 196, 150) 34%),
+    radial-gradient(100% 100% at 87% 93%, rgb(72, 88, 111) 0%, rgba(40, 61, 62, 0.72) 100%),
+    linear-gradient(337deg, rgb(214, 196, 150) 0%, rgb(214, 46, 46) 18%, rgb(72, 88, 111) 36%, rgb(214, 46, 46) 56%, rgb(214, 196, 150) 62%);
+    background-blend-mode: normal, hard-light, hue, screen, exclusion, luminosity, saturation;
+  }
+  
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.button-download {
+    margin-top: -10px;
+    font-size: 20px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: #22272E;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 4;
+    width: 225px;
+    border-radius: 30px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s,
+}
+
+.button-download:hover {
+    width: 300px;
+}
+
+code {
+    font-family: 'Hack', sans-serif;
+    color: #fff
+}
+
+.language-bash {
+    display: table; 
+    justify-content: center;
+    align-items: center;
+    background-color: #2B313A;
+    padding: 12px;
+    border-radius: 10px;
+    -webkit-transition: transform 0.3s ease-in-out;
+    -moz-transition:transform 0.3s ease-in-out;
+    -ms-transition:transform 0.3s ease-in-out;
+}
+
+.language-bash:hover {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: transform 0.3s ease-in-out;
+    -moz-transition:transform 0.3s ease-in-out;
+    -ms-transition:transform 0.3s ease-in-out;
+}
+
+em {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+p {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+#subnames {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color: #d7d7d7;
+    text-align: center;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+#name {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color: #fff;
+    text-align: center;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+a {
+    font-family: 'Hack', sans-serif;
+    color: #58c9ef;
+}
+  
+.vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+@media screen and (max-width : 1920px){
+    .mobile{
+        visibility:hidden;
+    }
+}
+@media screen and (max-width : 906px){
+    .desktop{
+        visibility:hidden;
+    }
+    .mobile{
+        visibility:visible;
+    }
+}
